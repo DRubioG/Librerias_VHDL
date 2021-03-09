@@ -17,7 +17,7 @@ Consta de:
  - 3 entradas:
     - clk : reloj de la placa
     - rst : reset de la placa
-    - ciclo_trabajo : ciclo de trabajo de la PWM
+    - ciclo_trabajo : ciclo de trabajo de la PWM, 20 bits
 - 1 salida:
     - pwm : salida de la PWM
 - 1 generic: 
