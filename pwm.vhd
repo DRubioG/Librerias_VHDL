@@ -8,7 +8,7 @@ entity servo is
     );
   Port ( 
   rst, clk: in std_logic;
-  grados : in std_logic_vector(19 downto 0);
+  ciclo_trabajo : in std_logic_vector(19 downto 0);
   pwm : out std_logic
   
   );
