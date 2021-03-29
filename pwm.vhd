@@ -25,7 +25,7 @@ begin
         cont<=(others=>'0');
     elsif rising_edge(clk) then
         cont<=cont+1;
-        if cont<unsigned(grados) then
+        if cont<unsigned(ciclo_trabajo) then
             pwm<='1';
         elsif cont<pwm_periodo then
             pwm<='0';
