@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.numeric_std.all;
 
-entity servo is
+entity pwm is
     generic(
         pwm_periodo : integer := 1000000        --Periodo: 20ns
     );
@@ -12,9 +12,9 @@ entity servo is
   pwm : out std_logic
   
   );
-end servo;
+end pwm;
 
-architecture Behavioral of servo is
+architecture Behavioral of pwm is
 signal cont: unsigned(19 downto 0);
 begin
 
